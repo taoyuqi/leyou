@@ -85,6 +85,7 @@ public class User {
 
     @Override
     public String toString() {
+        System.out.println("分支添加");
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
