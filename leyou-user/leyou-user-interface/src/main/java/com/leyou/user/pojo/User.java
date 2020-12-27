@@ -91,7 +91,6 @@ public class User {
                 ", password='" + password + '\'' +
                 ", phone='" + phone + '\'' +
                 ", created=" + created +
-                ", salt='" + salt + '\'' +
                 '}';
     }
 }
