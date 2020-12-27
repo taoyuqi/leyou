@@ -82,4 +82,16 @@ public class User {
     public void setSalt(String salt) {
         this.salt = salt;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", phone='" + phone + '\'' +
+                ", created=" + created +
+                ", salt='" + salt + '\'' +
+                '}';
+    }
 }
